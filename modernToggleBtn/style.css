@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    background-image: url('./testa\ powershel\ img.jpg');
+
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    font-family: sans-serif;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+}
+
+a:hover{
+    color: rbg(27,4,84);
+
+}
+
+.navbar{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    font-size: 1.5rem;
+    font-weight: bold;
+
+}
+
+ul{
+    display: flex;
+    gap: 2rem;
+}
+
+.toggle_btn{
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    display: none;
+}
+
+.action_btn{
+    background-color: rgb(27,4,84);
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    outline: none;
+    font-size: 0.8rem;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.action_btn:hover{
+    background: green;
+}
